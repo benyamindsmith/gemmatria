@@ -1,37 +1,13 @@
-Public Function AS_GEMMATRIA(CellRef As Integer) As String
+Function AS_GEMMATRIA(CellRef As Integer) As String
 
-gm = CellRef.Val
+Dim NumLen As Integer
 
-'Define Numbers
+If NumLen = 1 Then
+Result = "Aleph"
 
-ones = Array("Aleph", "Beis", "Gimmel", "Daled", "Hey", "Vov", "Zayin", "Ches", "Tes")
-tens = Array("Yud", "Chof", "Lamed", "Mem", "Nun", "Samech", "Ayin", "Pey", "Tzadi")
-hnds = Array("Kuf", "Reish", "Shin", "Tav")
+Else: MsgBox ("Only works for 1")
 
-'The Function
 
-If Len(CellRef) = 1 Then
-If CellRef = 1 Then
-ones (1)
-ElseIf CellRef = 2 Then
-ones (2)
-ElseIf CellRef = 3 Then
-ones (3)
-ElseIf CellRef = 4 Then
-ones (4)
-ElseIf CellRef = 5 Then
-ones (5)
-ElseIf CellRef = 6 Then
-ones (6)
-ElseIf CellRef = 7 Then
-ones (7)
-ElseIf CellRef = 8 Then
-ones (8)
-ElseIf CellRef = 9 Then
-ones (9)
+AS_GEMMATRIA = Result
 End If
-Else: MsgBox ("This only works with numbers 1-9")
-
-End If
-
 End Function
