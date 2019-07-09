@@ -4,6 +4,8 @@
 #'
 
 heb<-"שלום"
+
+tct<-"דוד המלך"
 require(plyr)
 get_gemmatria<-function(text){
   #'Split text
@@ -31,7 +33,7 @@ get_gemmatria<-function(text){
                                                   "פ"=80,
                                                   "ף"=80,
                                                   "צ"=90,
-                                                  "ץ"=90
+                                                  "ץ"=90,
                                                   "ק"=100,
                                                   "ר"=200,
                                                   "ש"=300,
@@ -45,7 +47,7 @@ get_gemmatria<-function(text){
   
 }
 
-get_atbash<-function(text){ splt<-unlist(strsplit(text,split=""))
+get_gemmatria_atbash<-function(text){ splt<-unlist(strsplit(text,split=""))
 
 gem<-sapply(splt, function(x)plyr::revalue(x,c( "א"=400,
                                                 "ב"=300,
@@ -80,3 +82,10 @@ gem<-unname(gem)
 gem<-as.numeric(gem)
 
 sum(gem)}
+
+get_gemmatria_rt<-function(text){
+  splt<-unlist(strsplit(text,split = " "))
+  
+  splt<-unname(sapply(splt,function(x) strsplit(x,split="")))
+  splt
+}
