@@ -3,8 +3,8 @@ Title: A R package for Calculating Gemmatria and Preforming Related Tasks with H
 Version: 0.1.0
 Authors@R: person("Benjamin", "Smith", email = "benyamindsmith@gmail.com", role = c("aut", "cre"))
 Description: This package helps calculate various Gemmatrias of Hebrew words and text. 
-             Presently this code covers standard Gemmatria, AtBash, Roshei and Sofei Taivos as well 
-             as an AtBash Converter. 
+             Presently this code covers standard Gemmatria, AtBash, Gemmatria of Roshei and Sofei Taivos and 
+             a AtBash Converter. 
 Depends: R (>= 3.5.2)
 License: Apache 2.0
 Encoding: UTF-8
