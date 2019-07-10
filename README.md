@@ -52,7 +52,6 @@ Being that this is a self driven project (though I am open for collaborators) th
 
 It is hoped to create additional tools geared towards NLP of the Hebrew laguage. Further tools/programs in the works presently consist of:
 
-* A Gemmatria converter- i.e. a function geared towards converting from base ten to Gemmatria.
 * A Shiny Web app- geared towards researchers interested in getting calculations easily and providing a easy user interface with all of the above functions discussed. 
 
 ## Contact
