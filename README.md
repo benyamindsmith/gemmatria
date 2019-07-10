@@ -20,6 +20,7 @@ The tools presently availible in this package are:
 * A AtBash Calculator (`get_gemmatria_ab()`)
 * A Roshei Taivos Calculator (`get_gemmatria_rt()`)
 * A Sofei Taivos Calculator (`get_gemmatria_st()`)
+* A Gemmatria Converter (`as_gemmatria()`)
 * An AtBash Converter (`as_atbash()`)
 
 ## Dependencies
@@ -38,6 +39,9 @@ This package can be installed with using the `devtools` package
 devtools::install_github("benyamindsmith\gemmatria")
 ```
 
+## Examples
+ (_Coming Soon!_)
+ 
 ## Limitations
 
 Because this is a work in progress there are many things which still need to be dealt with. Here are a few: 
