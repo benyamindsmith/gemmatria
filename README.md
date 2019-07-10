@@ -10,5 +10,7 @@ Gematria /ɡəˈmeɪtriə/ (Hebrew: גמטריא or גימטריה, plural גמ�
 
 ---
 
-This package contains functions used for calculating the Gemmatria of Hebrew words and phrases. To the best of the author's knoweldge, no other tools in like this are availible in R (while they do exist in other languages); This is an attempt to provide tools for those interested in studying Hebrew text and would quickly like to see Gemmatrias of text(s) which they wish to examine. 
+This package contains functions used for calculating the Gemmatria of Hebrew words and phrases. To the best of the author's knoweldge, no other tools in like this are availible in R (while they do exist in other languages).
+
+This is an attempt to provide tools for those interested in studying Hebrew text and would quickly like to see Gemmatrias or rearrangement of the text(s) which they wish to examine. 
 
