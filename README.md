@@ -54,7 +54,23 @@ devtools::install_github("benyamindsmith\gemmatria")
 ```
 
 ## Examples
- (_Coming Soon!_)
+
+### Getting the Gemmatria of Hebrew Words
+
+To get the Gemmatria of Hebrew Words, we can use the `get_gemmatria()` to find out how much it is. 
+```r
+> get_gemmatria("מה זה גימטריה של זה")
+[1] 676
+```
+
+### Converting to Gemmatria Form
+
+Lets say we want to find the Gemmatria  formof the number 613. With the `as_gemmatria()` function we can do that:
+
+```r
+> as_gemmatria(613)
+[1] "תריג"
+```
  
 ## Limitations
 
@@ -68,7 +84,7 @@ Because this is a work in progress there are many things which still need to be 
 
 Being that this is a self driven project (though I am open for collaborators) this will take some time to address these issues. 
 
-__With this all said this package usable for research. However it presently is not ready to be published on CRAN.__
+__With this said, the package is usable for research. However it presently is not ready to be published on CRAN.__
 ## Further research
 
 It is hoped to create additional tools geared towards NLP of the Hebrew laguage. Further tools/programs in the works presently consist of:
