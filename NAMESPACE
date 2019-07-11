@@ -7,4 +7,3 @@ export(get_gemmatria_atbash)
 export(get_gemmatria_rt)
 export(get_gemmatria_st)
 import(plyr)
-
