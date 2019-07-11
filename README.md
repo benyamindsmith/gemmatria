@@ -71,6 +71,8 @@ Lets say we want to find the Gemmatria  formof the number 613. With the `as_gemm
 > as_gemmatria(613)
 [1] "תריג"
 ```
+
+The documentation with the other functions provide similar examples. 
  
 ## Limitations
 
