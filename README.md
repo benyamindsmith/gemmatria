@@ -87,11 +87,10 @@ Because this is a work in progress there are many things which still need to be 
 Being that this is a self driven project (though I am open for collaborators) this will take some time to address these issues. 
 
 __With this said, the package is usable for research. However it presently is not ready to be published on CRAN.__
-## Further research
 
-It is hoped to create additional tools geared towards NLP of the Hebrew laguage. Further tools/programs in the works presently consist of:
+## Shiny App
 
-* A Shiny Web app- geared towards researchers interested in getting calculations easily and providing a easy user interface with all of the above functions discussed. 
+To use this package with a user interface, check out the Shiny app here: https://github.com/benyamindsmith/gemmatria_app (NOTE: It requires that the `gemmatria` package is installed)
 
 ## Contact
 If you are interested in taking part in this project. Please feel free to contact me via GitHub.
