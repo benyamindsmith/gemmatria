@@ -1,4 +1,4 @@
-# gemmatria <a href='https://github.com/benyamindsmith/gemmatria/tree/master/'><img src='./גמטריה-2.png' align="right" height="200" /></a>
+# gemmatria <a href='https://github.com/benyamindsmith/gemmatria/tree/master/'><img src='./gemmatria_package.png' align="right" height="200" /></a>
 
 An R package used for calculating the Gemmatria of Hebrew words and phrases.
 
