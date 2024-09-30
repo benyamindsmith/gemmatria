@@ -2,6 +2,10 @@
 
 An R package used for calculating the Gemmatria of Hebrew words and phrases.
 
+## In Memoraim
+
+This package is dedicated in memory of [Avner Milevsky z"l](https://www.linkedin.com/in/avnermil/) whose appreciation and understanding of Gemmatrias far extended my own. For a much more powerful Gemmatria engine check out [http://secretorah.com/](http://secretorah.com) and the Gemmatria sheets that Avner z"l produced with them (available on his LinkedIn profile).  
+
 ## What is Gemmatria?
 
 (_From [Wikipedia]([https://en.wikipedia.org/wiki/Gematria)_)
